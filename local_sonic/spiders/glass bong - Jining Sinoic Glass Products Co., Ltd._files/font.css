@@ -1,0 +1,67 @@
+
+/*
+@font-face {
+  font-family:'Roboto' !important;
+  src: url('./Roboto-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin/Roboto-Thin_d674db2d.eot") format("eot");src:local("Roboto Thin"),local("Roboto-Thin"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin/Roboto-Thin_d674db2d.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin/Roboto-Thin_d7ab97cf.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin/Roboto-Thin_5d4bd3e9.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin/Roboto-Thin_6a77e61b.ttf") format("truetype");font-weight:100;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin-italic/Roboto-ThinItalic_dfed019f.eot") format("eot");src:local("Roboto Thin Italic"),local("Roboto-ThinItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin-italic/Roboto-ThinItalic_dfed019f.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin-italic/Roboto-ThinItalic_f8d2b595.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin-italic/Roboto-ThinItalic_d83bdffd.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/100-thin-italic/Roboto-ThinItalic_c44a27d2.ttf") format("truetype");font-weight:100;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/300-light/Roboto-Light_29222ec9.eot") format("eot");src:local("Roboto Light"),local("Roboto-Light"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light/Roboto-Light_29222ec9.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light/Roboto-Light_656d9dc4.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light/Roboto-Light_fa135418.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light/Roboto-Light_51ef5f59.ttf") format("truetype");font-weight:300;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/300-light-italic/Roboto-LightItalic_bc6c9e9b.eot") format("eot");src:local("Roboto Light Italic"),local("Roboto-LightItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light-italic/Roboto-LightItalic_bc6c9e9b.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light-italic/Roboto-LightItalic_5447e531.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light-italic/Roboto-LightItalic_efc6c415.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/300-light-italic/Roboto-LightItalic_1d30e857.ttf") format("truetype");font-weight:300;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular/Roboto-Regular_f24e406b.eot") format("eot");src:local("Roboto"),local("Roboto Regular"),local("Roboto-Regular"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular/Roboto-Regular_f24e406b.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular/Roboto-Regular_c0bdb222.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular/Roboto-Regular_7a9bed1c.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular/Roboto-Regular_b9bb2ea1.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular-italic/Roboto-Italic_7188b900.eot") format("eot");src:local("Roboto Italic"),local("Roboto Regular Italic"),local("Roboto-Italic"),local("Roboto-RegularItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular-italic/Roboto-Italic_7188b900.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular-italic/Roboto-Italic_25d9d39c.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular-italic/Roboto-Italic_e29ab029.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/400-regular-italic/Roboto-Italic_cdbb8c85.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium/Roboto-Medium_9da4043e.eot") format("eot");src:local("Roboto Medium"),local("Roboto-Medium"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium/Roboto-Medium_9da4043e.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium/Roboto-Medium_fc2f6e44.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium/Roboto-Medium_99695a0c.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium/Roboto-Medium_1c1b2593.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium-italic/Roboto-MediumItalic_7872f2e7.eot") format("eot");src:local("Roboto Medium Italic"),local("Roboto-MediumItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium-italic/Roboto-MediumItalic_7872f2e7.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium-italic/Roboto-MediumItalic_34cc9a72.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium-italic/Roboto-MediumItalic_59bda433.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/500-medium-italic/Roboto-MediumItalic_243e9fd2.ttf") format("truetype");font-weight:500;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold/Roboto-Bold_7c94a401.eot") format("eot");src:local("Roboto Bold"),local("Roboto-Bold"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold/Roboto-Bold_7c94a401.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold/Roboto-Bold_c28b5c34.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold/Roboto-Bold_308a6db6.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold/Roboto-Bold_c76c6c14.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold-italic/Roboto-BoldItalic_a7d5cbe1.eot") format("eot");src:local("Roboto Bold Italic"),local("Roboto-BoldItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold-italic/Roboto-BoldItalic_a7d5cbe1.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold-italic/Roboto-BoldItalic_c7d8d796.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold-italic/Roboto-BoldItalic_1ebeaea0.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/700-bold-italic/Roboto-BoldItalic_75f63add.ttf") format("truetype");font-weight:700;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/900-black/Roboto-Black_099bb818.eot") format("eot");src:local("Roboto Black"),local("Roboto-Black"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black/Roboto-Black_099bb818.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black/Roboto-Black_7f897f06.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black/Roboto-Black_e5ce9304.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black/Roboto-Black_2720da91.ttf") format("truetype");font-weight:900;font-style:normal;font-display:swap
+}
+
+@font-face {
+	font-family:"Roboto";src:url("https://s.globalsources.com/IMAGES/font/Roboto/900-black-italic/Roboto-BlackItalic_0107d46a.eot") format("eot");src:local("Roboto Black Italic"),local("Roboto-BlackItalic"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black-italic/Roboto-BlackItalic_0107d46a.eot?#iefix") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black-italic/Roboto-BlackItalic_243bb83c.woff2") format("woff2"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black-italic/Roboto-BlackItalic_6d54760f.woff") format("woff"),url("https://s.globalsources.com/IMAGES/font/Roboto/900-black-italic/Roboto-BlackItalic_08028c37.ttf") format("truetype");font-weight:900;font-style:italic;font-display:swap
+}
+
+@font-face {
+	font-family:"Gic-icon";src:url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_fc6a6657.eot?v=20201103");src:url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_fc6a6657.eot?#iefix&v=20201103") format("embedded-opentype"),url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_3425a96d.woff2?v=20201103") format("woff2"),url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_6a2ccb5e.woff?v=20201103") format("woff"),url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_d86a66e6.ttf?v=20201103") format("truetype"),url("https://s.globalsources.com/IMAGES/font/gicon/gicon-2/gicon_1d63a635.svg?v=20201103") format("svg");font-weight:normal;font-style:normal;font-display:swap
+}
+
+*{
+  font-family:Roboto, Arial, "Microsoft YaHei", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight:400;
+}
